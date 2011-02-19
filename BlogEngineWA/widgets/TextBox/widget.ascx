@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="BlogEngineWA.widgets.TextBox.Widget" Codebehind="widget.ascx.cs" %>

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngine.Core", "BlogEngine.Core\BlogEngine.Core.csproj", "{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEngineWA", "BlogEngineWA\BlogEngineWA.csproj", "{E934A037-916B-4FE2-BA17-C700A6CB9051}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9ED9914A-FB6E-4D21-8C71-9122E8C3076B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Release|.NET.ActiveCfg = Release|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E934A037-916B-4FE2-BA17-C700A6CB9051}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BlogEngineWA\BlogEngineWA.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SpecExplorer.ActivityCompletionStatus) = preSolution
+	EndGlobalSection
+EndGlobal
