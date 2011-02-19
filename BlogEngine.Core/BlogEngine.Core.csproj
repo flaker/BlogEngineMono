@@ -85,10 +85,12 @@
     </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="AjaxMin, Version=4.6.3932.19636, Culture=neutral, PublicKeyToken=24297a69a7eae424">
-      <HintPath>..\..\lib\ajaxminify\AjaxMin.dll</HintPath>
+      <HintPath>..\lib\ajaxminify\AjaxMin.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="BlogML, Version=2.5.3.0, Culture=neutral, PublicKeyToken=8b11cb968f70ecec">
-      <HintPath>..\..\lib\blogml\BlogML.dll</HintPath>
+      <HintPath>..\lib\blogml\BlogML.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
   </ItemGroup>
   <ItemGroup>
