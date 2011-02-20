@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="BlogEngineWA.error404" Codebehind="error404.aspx.cs" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Controls" Assembly="BlogEngineWA" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphBody" Runat="Server">
   <div class="post error404">

@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="UserControls.CommentView" Codebehind="CommentView.ascx.cs" %>
-<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Extensions.Recaptcha" Assembly="BlogEngineWA" %>
-<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Extensions.SimpleCaptcha" Assembly="BlogEngineWA" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Extensions" Assembly="BlogEngineWA" %>
+<!--<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Extensions.SimpleCaptcha" Assembly="BlogEngineWA" %>-->
 
 <% if (CommentCounter > 0)
    { %>

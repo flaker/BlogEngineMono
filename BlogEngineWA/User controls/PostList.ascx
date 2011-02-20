@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" EnableViewState="false" Inherits="UserControls.PostList" Codebehind="PostList.ascx.cs" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Controls" Assembly="BlogEngineWA" %>
 <div runat="server" id="posts" class="posts" />
 
 <div id="postPaging" style="display: none">

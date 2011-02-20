@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" ValidateRequest="False" Inherits="BlogEngineWA.post" Codebehind="post.aspx.cs" %>
 <%@ Register Src="User controls/CommentView.ascx" TagName="CommentView" TagPrefix="uc" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Controls" Assembly="BlogEngineWA" %>
+
 <asp:content id="Content1" contentplaceholderid="cphBody" runat="Server">
   
   <asp:PlaceHolder ID="phCommentNotificationUnsubscription" runat="server" visible="false">

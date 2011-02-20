@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="BlogEngineWA._default" Codebehind="default.aspx.cs" %>
 <%@ Register Src="User controls/PostList.ascx" TagName="PostList" TagPrefix="uc1" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Controls" Assembly="BlogEngineWA" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphBody" Runat="Server">
   <div id="divError" runat="Server" />

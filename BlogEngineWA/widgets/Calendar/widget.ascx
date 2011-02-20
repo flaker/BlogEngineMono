@@ -1,4 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" Inherits="BlogEngineWA.widgets.Calendar.Widget" Codebehind="widget.ascx.cs" %>
+<%@ Register TagPrefix="blog" Namespace="BlogEngineWA.CustomCode.Controls" Assembly="BlogEngineWA" %>
 <div style="text-align: center">
     <blog:PostCalendar ID="PostCalendar1" runat="Server" NextMonthText=">>" DayNameFormat="FirstTwoLetters"
         FirstDayOfWeek="monday" PrevMonthText="<<" CssClass="calendar" BorderWidth="0"

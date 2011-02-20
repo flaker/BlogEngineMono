@@ -48,8 +48,12 @@
 
             set
             {
-                this.publishables = value;
+//                this.publishables = value;
+//               ((BlogEngineWA.CustomCode.Controls.PostPager)this.pager1).Posts = value;
+
+				this.publishables = value;
                 this.pager1.Posts = value;
+
             }
         }
 
