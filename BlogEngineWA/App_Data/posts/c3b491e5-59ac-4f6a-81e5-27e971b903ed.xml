@@ -67,17 +67,6 @@ public class Hello1
       <ip>127.0.0.1</ip>
       <content>comment 3</content>
     </comment>
-    <comment id="4de2062d-7563-44bd-bb9b-b51a5bf9bf89" parentid="00000000-0000-0000-0000-000000000000" approved="True" spam="False" deleted="True">
-      <date>2011-01-31 00:02:34</date>
-      <author>Admin</author>
-      <email>post@example.com</email>
-      <country>bd</country>
-      <ip>127.0.0.1</ip>
-      <website>http://127.0.0.1/</website>
-      <moderatedby>Rule:authenticated</moderatedby>
-      <avatar />
-      <content>Pepe pompin</content>
-    </comment>
   </comments>
   <categories>
     <category>19770e74-9ec9-4cde-b2ab-e5051aaaf348</category>
