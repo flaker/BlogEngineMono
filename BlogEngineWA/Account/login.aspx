@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" MasterPageFile="account.master" AutoEventWireup="true" Inherits="BlogEngineWA.Account.Login" Codebehind="login.aspx.cs" %>
-
 <%@ MasterType VirtualPath="~/Account/account.master" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
