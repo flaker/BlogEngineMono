@@ -26,6 +26,15 @@ namespace BlogEngineWA.widgets.Twitter
     {
         #region Constants and Fields
 
+		/// <summary>
+		/// Keys to the settings collection
+		/// </summary>
+	    internal const string Twit_KeyAccountUrl = "accounturl";
+		internal const string Twit_KeyFeedUrl = "feedurl";
+		internal const string Twit_KeyPollingInterval = "pollinginterval";
+		internal const string Twit_KeyMaxItems = "maxitems";
+		internal const string Twit_KeyFollowMeText = "followmetext";
+		
         /// <summary>
         /// The link format.
         /// </summary>
@@ -39,7 +48,7 @@ namespace BlogEngineWA.widgets.Twitter
         /// <summary>
         /// The twitter settings cache key.
         /// </summary>
-        private const string TwitterSettingsCacheKey = "twitter-settings"; // same key used in edit.ascx.cs.
+        internal const string TwitterSettingsCacheKey = "twitter-settings"; // same key used in edit.ascx.cs.
 
         /// <summary>
         /// The link regex.
@@ -360,6 +369,7 @@ namespace BlogEngineWA.widgets.Twitter
         /// <returns>
         /// The twitter settings.
         /// </returns>
+
         private TwitterSettings GetTwitterSettings()
         {
             var twitterSettings = HttpRuntime.Cache[TwitterSettingsCacheKey] as TwitterSettings;
@@ -378,24 +388,24 @@ namespace BlogEngineWA.widgets.Twitter
 
             var settings = this.GetSettings();
 
-            if (settings.ContainsKey("accounturl") && !string.IsNullOrEmpty(settings["accounturl"]))
+            if (settings.ContainsKey(Twit_KeyAccountUrl) && !string.IsNullOrEmpty(settings[Twit_KeyAccountUrl]))
             {
                 Uri accountUrl;
-                Uri.TryCreate(settings["accounturl"], UriKind.Absolute, out accountUrl);
+                Uri.TryCreate(settings[Twit_KeyAccountUrl], UriKind.Absolute, out accountUrl);
                 twitterSettings.AccountUrl = accountUrl;
             }
 
-            if (settings.ContainsKey("feedurl") && !string.IsNullOrEmpty(settings["feedurl"]))
+            if (settings.ContainsKey(Twit_KeyFeedUrl) && !string.IsNullOrEmpty(settings[Twit_KeyFeedUrl]))
             {
                 Uri feedUrl;
-                Uri.TryCreate(settings["feedurl"], UriKind.Absolute, out feedUrl);
+                Uri.TryCreate(settings[Twit_KeyFeedUrl], UriKind.Absolute, out feedUrl);
                 twitterSettings.FeedUrl = feedUrl;
             }
 
-            if (settings.ContainsKey("pollinginterval") && !string.IsNullOrEmpty(settings["pollinginterval"]))
+            if (settings.ContainsKey(Twit_KeyPollingInterval) && !string.IsNullOrEmpty(settings[Twit_KeyPollingInterval]))
             {
                 int tempPollingInterval;
-                if (int.TryParse(settings["pollinginterval"], out tempPollingInterval))
+                if (int.TryParse(settings[Twit_KeyPollingInterval], out tempPollingInterval))
                 {
                     if (tempPollingInterval > 0)
                     {
@@ -406,10 +416,10 @@ namespace BlogEngineWA.widgets.Twitter
 
             twitterSettings.PollingInterval = pollingInterval;
 
-            if (settings.ContainsKey("maxitems") && !string.IsNullOrEmpty(settings["maxitems"]))
+            if (settings.ContainsKey(Twit_KeyMaxItems) && !string.IsNullOrEmpty(settings[Twit_KeyMaxItems]))
             {
                 int tempMaxItems;
-                if (int.TryParse(settings["maxitems"], out tempMaxItems))
+                if (int.TryParse(settings[Twit_KeyMaxItems], out tempMaxItems))
                 {
                     if (tempMaxItems > 0)
                     {
@@ -420,9 +430,9 @@ namespace BlogEngineWA.widgets.Twitter
 
             twitterSettings.MaxItems = maxItems;
 
-            twitterSettings.FollowMeText = settings.ContainsKey("followmetext") &&
-                                           !string.IsNullOrEmpty(settings["followmetext"])
-                                               ? settings["followmetext"]
+            twitterSettings.FollowMeText = settings.ContainsKey(Twit_KeyFollowMeText) &&
+                                           !string.IsNullOrEmpty(settings[Twit_KeyFollowMeText])
+                                               ? settings[Twit_KeyFollowMeText]
                                                : FollowMeText;
 
             HttpRuntime.Cache[TwitterSettingsCacheKey] = twitterSettings;

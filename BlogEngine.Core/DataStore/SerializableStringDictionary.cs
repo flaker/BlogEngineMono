@@ -55,7 +55,9 @@
 
                 this.Add(key, value);
             }
-            while (reader.ReadToNextSibling("DictionaryEntry"));
+			while (reader.ReadToFollowing("DictionaryEntry"));
+			// Mono Bug?
+            // while (reader.ReadToNextSibling("DictionaryEntry"));
         }
 
         /// <summary>
