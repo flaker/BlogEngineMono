@@ -184,7 +184,7 @@
     <value>Categoría</value>
   </data>
   <data name="closeCommetsAfter" xml:space="preserve">
-    <value>Impida Comentarios a Partir De </value>
+    <value>Cerrar Comentarios a Partir De </value>
   </data>
   <data name="combine" xml:space="preserve">
     <value>Combinación</value>

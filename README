@@ -1,7 +1,7 @@
-This is BlogEngine 2.0 () transformed to a WebApp in order to work with Monodevelop.
+This is BlogEngine 2.0 (http://www.dotnetblogengine.net/) transformed to a Web Application in order to work with Monodevelop.
 
 Source code includes minimal changes to work with Mono 2.10 (other workarounds were made by the original authors)
 
-Solution file was saves using Monodevelop 2.4.2 and (litle) development is being done on the VM provided by the Mono project on their download page.
+Solution file was saved using Monodevelop 2.4.2 and (little) development is being done on the VM provided by the Mono project on their download page (http://www.go-mono.com/mono-downloads/download.html).
 
-The only purpose of this is to get a fully running BE 2.0 under Mono 2.10 and Apache.
+The only purpose of this is to get a fully running BE 2.0 under Mono 2.10 and Apache using mono_mod.
