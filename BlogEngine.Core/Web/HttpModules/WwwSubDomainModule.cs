@@ -1,4 +1,4 @@
-﻿namespace BlogEngine.Core.Web.HttpModules
+namespace BlogEngine.Core.Web.HttpModules
 {
     using System;
     using System.Text.RegularExpressions;
@@ -113,7 +113,7 @@
             }
 
             var context = ((HttpApplication)sender).Context;
-            if (context.Request.HttpMethod != "GET" || context.Request.RawUrl.Contains("/admin/") ||
+            if (context.Request.HttpMethod != "GET" || context.Request.RawUrl.Contains("/Admin/", StringComparison.OrdinalIgnoreCase) ||
                 context.Request.IsLocal)
             {
                 return;

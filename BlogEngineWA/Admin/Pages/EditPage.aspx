@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" 
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" 
 ValidateRequest="false" Inherits="BlogEngineWA.Admin.Pages.EditPage" Codebehind="EditPage.aspx.cs" %>
 
-<%@ Register Src="~/admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
+<%@ Register Src="~/Admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="Server">
     <script type="text/javascript">
         function GetSlug() {

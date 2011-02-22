@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Advanced" Codebehind="Advanced.aspx.cs" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Advanced" Codebehind="Advanced.aspx.cs" %>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" Runat="Server"> 

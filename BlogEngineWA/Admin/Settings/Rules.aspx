@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Rules" Codebehind="Rules.aspx.cs" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Rules" Codebehind="Rules.aspx.cs" %>
 <%@ Import Namespace="Resources"%>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 
@@ -160,7 +160,7 @@
                         
                         <asp:TemplateField ShowHeader="False" ItemStyle-VerticalAlign="middle" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="25">
                             <ItemTemplate>
-                                <asp:ImageButton ID="btnDelete" runat="server" ImageAlign="middle" CausesValidation="false" ImageUrl="~/admin/images/action-delete.png" OnClick="btnDelete_Click" CommandName="btnDelete" AlternateText="<%=labels.delete%>" />
+                                <asp:ImageButton ID="btnDelete" runat="server" ImageAlign="middle" CausesValidation="false" ImageUrl="~/Admin/images/action-delete.png" OnClick="btnDelete_Click" CommandName="btnDelete" AlternateText="<%=labels.delete%>" />
                             </ItemTemplate>
                         </asp:TemplateField>
                         </Columns>

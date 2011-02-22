@@ -1,7 +1,7 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Posts.AddEntry" ValidateRequest="False"
+﻿<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Posts.AddEntry" ValidateRequest="False"
     EnableSessionState="True" Codebehind="Add_entry.aspx.cs" %>
 
-<%@ Register Src="~/admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
+<%@ Register Src="~/Admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="Server">

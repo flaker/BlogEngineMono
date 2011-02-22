@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true"
+<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true"
     ValidateRequest="False" Inherits="BlogEngineWA.Admin.Posts.admin_Pages_Categories" Codebehind="Categories.aspx.cs" %>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 

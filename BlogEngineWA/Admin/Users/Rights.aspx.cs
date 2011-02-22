@@ -27,7 +27,7 @@ namespace BlogEngineWA.Admin.Users
 
             // If an invalid role is requested, send the user back to the Roles page since it has a list of all the roles.
             if (Utils.StringIsNullOrWhitespace(this.roleName) || !System.Web.Security.Roles.RoleExists(this.roleName)) {
-                this.Response.Redirect("~/admin/Users/Roles.aspx");
+                this.Response.Redirect("~/Admin/Users/Roles.aspx");
             }
 
         }

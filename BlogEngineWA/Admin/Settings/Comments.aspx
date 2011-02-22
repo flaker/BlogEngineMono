@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Settings" Codebehind="Comments.aspx.cs" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Settings.Settings" Codebehind="Comments.aspx.cs" %>
 <%@ Import Namespace="Resources"%>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 

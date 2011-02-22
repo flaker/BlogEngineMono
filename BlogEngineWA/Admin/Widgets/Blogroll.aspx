@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Widgets.admin_Pages_blogroll" Title="Blogroll" Codebehind="Blogroll.aspx.cs" %>
+<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.Widgets.admin_Pages_blogroll" Title="Blogroll" Codebehind="Blogroll.aspx.cs" %>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="Server">
@@ -153,9 +153,9 @@
                     <asp:CommandField ShowDeleteButton="True" DeleteText="<%$Resources:labels, delete %>" ControlStyle-CssClass="deleteAction" />
                     <asp:TemplateField ControlStyle-BackColor="Transparent">
                         <ItemTemplate>
-                            <asp:ImageButton ID="ibMoveUp" ImageUrl="~/admin/images/action-up.png" runat="server"
+                            <asp:ImageButton ID="ibMoveUp" ImageUrl="~/Admin/images/action-up.png" runat="server"
                                 CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" CommandName="moveUp" />
-                            <asp:ImageButton ID="ibMoveDown" ImageUrl="~/admin/images/action-down.png" runat="server"
+                            <asp:ImageButton ID="ibMoveDown" ImageUrl="~/Admin/images/action-down.png" runat="server"
                                 CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" CommandName="moveDown" />
                         </ItemTemplate>
                     </asp:TemplateField>

@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" ValidateRequest="false" Inherits="BlogEngineWA.Admin.Pages.PagesPage"
+<%@ Page Language="C#" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" ValidateRequest="false" Inherits="BlogEngineWA.Admin.Pages.PagesPage"
     Title="Add page" Codebehind="Pages.aspx.cs" %>
 <%@ Register src="Menu.ascx" tagname="TabMenu" tagprefix="menu" %>
 
-<%@ Register Src="~/admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
+<%@ Register Src="~/Admin/htmlEditor.ascx" TagPrefix="Blog" TagName="TextEditor" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphAdmin" runat="Server">
     <script type="text/javascript">
         LoadPages('All');

@@ -24,7 +24,7 @@
                 </div>                                  
                 <div class="toolbox">
                     <%= Resources.labels.welcome %> <%= UserProfile() == null ? Page.User.Identity.Name : UserProfile().DisplayName %>
-                    | <a href="<%=Utils.RelativeWebRoot %>admin/Users/Profile.aspx?id=<%=Page.User.Identity.Name %>"><%=Resources.labels.myProfile %></a>
+                    | <a href="<%=Utils.RelativeWebRoot %>Admin/Users/Profile.aspx?id=<%=Page.User.Identity.Name %>"><%=Resources.labels.myProfile %></a>
                     | <a href="<%=Utils.RelativeWebRoot %>"><%=Resources.labels.goToFrontPage %></a>
                     | <asp:LoginStatus ID="LoginStatus1" runat="server" SkinID="adminLoginStatus" />
                 </div>                                 
@@ -32,7 +32,7 @@
             
             <div class="tabs toprounded">
                 <uc1:menu ID="Menu1" runat="server" />
-                <asp:PlaceHolder ID="phRecycleBin" runat="server"><div id="recyclebin"><a class="<%=RecycleClass()%>" href="<%=Utils.RelativeWebRoot %>admin/Trash.aspx"></a></div></asp:PlaceHolder>
+                <asp:PlaceHolder ID="phRecycleBin" runat="server"><div id="recyclebin"><a class="<%=RecycleClass()%>" href="<%=Utils.RelativeWebRoot %>Admin/Trash.aspx"></a></div></asp:PlaceHolder>
             </div>
             <div class="clear"></div>
             <div>  
@@ -41,7 +41,7 @@
 
             <div id="footer">
                 <a href="http://dotnetblogengine.net">BlogEngine.NET <%=BlogSettings.Instance.Version() %></a> | 
-                <a id="donate" runat="server" href="~/admin/Donate.aspx" alt="Donate" target="_new"><%=Resources.labels.makeDonation %></a> |
+                <a id="donate" runat="server" href="~/Admin/Donate.aspx" alt="Donate" target="_new"><%=Resources.labels.makeDonation %></a> |
                  <%=BlogSettings.Instance.RuntimeVersion() %>       
             </div>
 

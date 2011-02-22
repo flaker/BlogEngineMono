@@ -1,4 +1,4 @@
-﻿namespace BlogEngine.Core.Web.Controls
+namespace BlogEngine.Core.Web.Controls
 {
     using System;
     using System.Globalization;
@@ -380,7 +380,7 @@
 
             if (Security.IsAuthorizedTo(Rights.ManageWidgets))
             {
-                Utils.AddJavaScriptInclude(this, string.Format("{0}admin/widget.js", Utils.RelativeWebRoot), true, false, true);
+                Utils.AddJavaScriptInclude(this, string.Format("{0}Admin/widget.js", Utils.RelativeWebRoot), true, false, true);
             }
 
             if (BlogSettings.Instance.RemoveWhitespaceInStyleSheets)

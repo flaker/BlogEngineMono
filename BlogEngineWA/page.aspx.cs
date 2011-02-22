@@ -147,7 +147,7 @@ namespace BlogEngineWA
                     if (sb.Length > 0) { sb.Append(" | "); }
 
                     sb.AppendFormat(
-                        "<a href=\"{0}admin/Pages/EditPage.aspx?id={1}\">{2}</a>",
+                        "<a href=\"{0}Admin/Pages/EditPage.aspx?id={1}\">{2}</a>",
                         Utils.RelativeWebRoot,
                         this.Page.Id,
                         labels.edit);

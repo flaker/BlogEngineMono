@@ -1,4 +1,4 @@
-﻿namespace BlogEngine.Core.Web.Extensions
+namespace BlogEngine.Core.Web.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -342,7 +342,7 @@
         }
 
         /// <summary>
-        /// Show of hide settings in the admin/extensions list
+        /// Show of hide settings in the Admin/extensions list
         /// </summary>
         /// <param name="extensionName">
         /// Extension name

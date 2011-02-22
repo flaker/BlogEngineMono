@@ -202,7 +202,7 @@ namespace BlogEngineWA.Admin
                 if (post.IsVisible)
                     response.Data = post.RelativeLink;
                 else
-                    response.Data = string.Format("{0}admin/Posts/Posts.aspx", Utils.RelativeWebRoot);
+                    response.Data = string.Format("{0}Admin/Posts/Posts.aspx", Utils.RelativeWebRoot);
 
                 HttpContext.Current.Session.Remove("content");
                 HttpContext.Current.Session.Remove("title");
@@ -308,7 +308,7 @@ namespace BlogEngineWA.Admin
                 if (page.IsVisible)
                     response.Data = page.RelativeLink;
                 else
-                    response.Data = string.Format("{0}admin/Pages/Pages.aspx", Utils.RelativeWebRoot);
+                    response.Data = string.Format("{0}Admin/Pages/Pages.aspx", Utils.RelativeWebRoot);
 
             }
             catch (Exception ex)

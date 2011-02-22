@@ -1,4 +1,4 @@
-﻿namespace BlogEngine.Core.Web.Controls
+namespace BlogEngine.Core.Web.Controls
 {
     using System;
     using System.Globalization;
@@ -204,7 +204,7 @@
                         sb.AppendFormat(
                             CultureInfo.InvariantCulture,
                             "<a href=\"{0}\">{1}</a> | ",
-                        Utils.AbsoluteWebRoot + "admin/Posts/Add_entry.aspx?id=" + this.Post.Id,
+                        Utils.AbsoluteWebRoot + "Admin/Posts/Add_entry.aspx?id=" + this.Post.Id,
                             Utils.Translate("edit"));
                     }
 

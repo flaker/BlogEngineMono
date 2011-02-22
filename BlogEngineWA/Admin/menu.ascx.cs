@@ -110,7 +110,7 @@ namespace BlogEngineWA.Admin
 
                         // if "page" has its own subfolder (comments, extensions) should 
                         // select parent tab when navigating through child tabs
-                        if (adminNode.Url.IndexOf("/admin/pagesxx/", StringComparison.OrdinalIgnoreCase) == -1 &&
+                        if (adminNode.Url.IndexOf("/Admin/pagesxx/", StringComparison.OrdinalIgnoreCase) == -1 &&
                             SubUrl(this.Request.RawUrl) == SubUrl(adminNode.Url))
                         {
                             a.Attributes["class"] = "current";
@@ -126,7 +126,7 @@ namespace BlogEngineWA.Admin
             if (!this.Request.RawUrl.ToUpperInvariant().Contains("/ADMIN/"))
             {
                 this.AddItem(
-                    labels.myProfile, string.Format("{0}admin/Users/Profile.aspx?id={1}", Utils.RelativeWebRoot, HttpUtility.UrlPathEncode(Security.CurrentUser.Identity.Name)));
+                    labels.myProfile, string.Format("{0}Admin/Users/Profile.aspx?id={1}", Utils.RelativeWebRoot, HttpUtility.UrlPathEncode(Security.CurrentUser.Identity.Name)));
 
                 this.AddItem(
                     labels.changePassword, string.Format("{0}Account/change-password.aspx", Utils.RelativeWebRoot));

@@ -51,7 +51,7 @@ namespace BlogEngineWA.Admin
         /// </returns>
         protected string UserPhoto()
         {
-            var src = string.Format("{0}admin/images/no_avatar.png", Utils.AbsoluteWebRoot);
+            var src = string.Format("{0}Admin/images/no_avatar.png", Utils.AbsoluteWebRoot);
             var email = (string)null;
             var userName = string.Empty;
             var ap = this.UserProfile();
@@ -112,7 +112,7 @@ namespace BlogEngineWA.Admin
             phRecycleBin.Visible = Security.IsAuthorizedTo(Rights.AccessAdminPages);
 
             Utils.AddFolderJavaScripts(this.Page, "Scripts", false);
-            Utils.AddJavaScriptInclude(this.Page, string.Format("{0}admin/admin.js", Utils.RelativeWebRoot), false, false);
+            Utils.AddJavaScriptInclude(this.Page, string.Format("{0}Admin/admin.js", Utils.RelativeWebRoot), false, false);
 
             base.OnInit(e);
         }

@@ -1,4 +1,4 @@
-﻿namespace BlogEngine.Core.Web.Extensions
+namespace BlogEngine.Core.Web.Extensions
 {
     using System;
     using System.Collections.Generic;
@@ -122,7 +122,7 @@
         }
 
         /// <summary>
-        ///     Gets or sets a value indicating whether to Show or hide settings in the admin/extensions list
+        ///     Gets or sets a value indicating whether to Show or hide settings in the Admin/extensions list
         /// </summary>
         [XmlElement]
         public bool ShowSettings { get; set; }

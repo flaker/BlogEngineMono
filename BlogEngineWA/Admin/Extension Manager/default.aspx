@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" ValidateRequest="false" MasterPageFile="~/admin/admin.master" AutoEventWireup="true" Inherits="Admin.ExtensionManager.Default" Title="Extensions" Codebehind="default.aspx.cs" %>
+<%@ Page Language="C#" ValidateRequest="false" MasterPageFile="~/Admin/admin.master" AutoEventWireup="true" Inherits="Admin.ExtensionManager.Default" Title="Extensions" Codebehind="default.aspx.cs" %>
 <%@ Reference Control = "Extensions.ascx" %>
 <%@ Reference Control = "Editor.ascx" %>
 <%@ Reference Control = "Settings.ascx" %>
