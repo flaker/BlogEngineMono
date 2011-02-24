@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -1785,6 +1785,7 @@
     <Content Include="widgets\Twitter\widget.ascx" />
     <Content Include="widgets\Visitor info\widget.ascx" />
     <Content Include="wlwmanifest.xml" />
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlogEngine.Core\BlogEngine.Core.csproj">
@@ -1821,7 +1822,6 @@
     <Content Include="themes\Indigo\site.master" />
     <Content Include="themes\Mobile\site.master" />
     <Content Include="themes\Standard\site.master" />
-    <Content Include="Web.Config" />
     <Content Include="Web.sitemap" />
     <Content Include="widgets\Visitor info\apmlchecker.ashx" />
   </ItemGroup>
