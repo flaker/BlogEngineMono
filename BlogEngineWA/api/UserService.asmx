@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="UserService.cs" Class="BlogEngineWA.api.UserService" %>
+﻿<%@ WebService Language="C#" Class="BlogEngineWA.api.UserService,BlogEngineWA" %>

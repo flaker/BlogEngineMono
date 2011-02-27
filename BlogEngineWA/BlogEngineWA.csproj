@@ -1785,7 +1785,7 @@
     <Content Include="widgets\Twitter\widget.ascx" />
     <Content Include="widgets\Visitor info\widget.ascx" />
     <Content Include="wlwmanifest.xml" />
-    <Content Include="web.config" />
+    <Content Include="Web.Config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlogEngine.Core\BlogEngine.Core.csproj">

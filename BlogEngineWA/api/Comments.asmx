@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="Comments.cs" Class="BlogEngineWA.api.Comments" %>
+﻿<%@ WebService Language="C#" Class="BlogEngineWA.api.Comments,BlogEngineWA" %>
