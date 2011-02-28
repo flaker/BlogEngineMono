@@ -76,7 +76,8 @@
                     var fi = new FileInfo(context.Server.MapPath(folder) + fileName);
 
                     if (fi.Exists &&
-                        fi.Directory.FullName.ToUpperInvariant().Contains(string.Format("{0}FILES", Path.DirectorySeparatorChar)))
+                        fi.Directory.FullName.Contains(string.Format("{0}FILES", Path.DirectorySeparatorChar), 
+					                                   StringComparison.OrdinalIgnoreCase))
                     {
                         context.Response.Cache.SetCacheability(HttpCacheability.Public);
                         context.Response.Cache.SetExpires(DateTime.Now.AddYears(1));
