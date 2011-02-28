@@ -1058,7 +1058,6 @@
     <Content Include="App_Data\datastore\extensions\BreakPost.xml" />
     <Content Include="App_Data\datastore\extensions\CodeFormatterExtension.xml" />
     <Content Include="App_Data\datastore\extensions\CommentFilters.xml" />
-    <Content Include="App_Data\datastore\extensions\Recaptcha.xml" />
     <Content Include="App_Data\datastore\extensions\ResolveLinks.xml" />
     <Content Include="App_Data\datastore\extensions\SendCommentMail.xml" />
     <Content Include="App_Data\datastore\extensions\SendPings.xml" />
