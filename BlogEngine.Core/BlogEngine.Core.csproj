@@ -200,6 +200,7 @@
     <Compile Include="Web\HttpModules\WwwSubDomainModule.cs" />
     <Compile Include="Web\HttpModules\UrlRewrite.cs" />
     <Compile Include="XmlSafeResolver.cs" />
+    <Compile Include="Web\Controls\BEForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogRollItem.cs" />

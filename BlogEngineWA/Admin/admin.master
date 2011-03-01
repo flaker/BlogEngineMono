@@ -1,6 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="BlogEngineWA.Admin.AdminMasterPage" Codebehind="admin.master.cs" %>
 <%@ Register Src="menu.ascx" TagName="menu" TagPrefix="uc1" %>
 <%@ Import Namespace="BlogEngine.Core" %>
+<%@ Register TagPrefix="test" Assembly="BlogEngine.Core" Namespace="BlogEngine.Core.Web.Controls" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%;">
 <head id="Head1" runat="server">
@@ -12,8 +13,7 @@
 </head>
 <body>
     <div class="page">
-        <form id="form1" runat="server">
-
+    <test:BEForm id="aspnetForm" runat="server">
             <div id="StatusBox">
                 <div id="AdminStatus" runat="server"></div>
             </div>
@@ -45,7 +45,7 @@
                  <%=BlogSettings.Instance.RuntimeVersion() %>       
             </div>
 
-        </form>    
+     </test:BEForm>  
     </div>
 </body>
 </html>

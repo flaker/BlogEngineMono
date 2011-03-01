@@ -15,7 +15,7 @@ namespace BlogEngineWA.Admin {
 		
 		protected System.Web.UI.HtmlControls.HtmlHead Head1;
 		
-		protected System.Web.UI.HtmlControls.HtmlForm form1;
+		protected BlogEngine.Core.Web.Controls.BEForm aspnetForm;
 		
 		protected System.Web.UI.HtmlControls.HtmlGenericControl AdminStatus;
 		
